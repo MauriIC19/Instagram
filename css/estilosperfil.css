@@ -1,0 +1,101 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	font-family: 'segoe-ui',sans-serif;
+	background: rgba(0,0,0,.05);
+}
+.header{
+	width: 100%;
+	height: 80px;
+	background: url(../images/fondologin.png);
+	float: left;
+	position: relative;
+}
+	.header>.nom>a{
+		width: 20%;
+		height: 100%;
+		font-family: 'Pacifico', cursive !important;
+		color: #fff;
+		line-height: 80px;
+		padding-left: 20px;
+		box-sizing: border-box;
+		float: left;
+		position: relative;
+		cursor:pointer;
+		text-decoration: none;
+	}
+	.header>.menu{
+		width: 80%;
+		height: 100%;
+		float: left;
+		position: relative;
+		padding-right: 20px;
+		box-sizing: border-box;
+	}
+		.menu>ul{
+			float: left;
+			position: relative;
+			width: 100%;
+			list-style: none;
+			/*background: blue;*/
+			height: 100%;
+		}
+			.menu>ul>li{
+				float: right;
+				position: relative;
+				height: 80px;
+				padding: 21px;
+				box-sizing: border-box;
+			}
+			.menu>ul>li>a, .menu>ul>li>form{
+				height: 100%;
+			}
+			.menu>ul>li>a>img, .menu>ul>li>form>label>img{
+				height: 100%;
+				-webkit-filter: invert(100%);
+				cursor: pointer;
+			}
+			form>input[type='submit']{
+				border: none;
+				height: 32px;
+				border-radius: 50%;
+				width: 32px;
+				position: relative;
+				float: left;
+				margin-right: 10px;
+				background: none;
+				font-size: 10px;
+				color: #fff;
+				border: 2px solid rgba(255,255,255,.4);
+			}
+
+.encabezado{
+	width: 100%;
+	height: 50px;
+	position: relative;
+	float: left;
+	margin-bottom: 20px;
+	background: linear-gradient(90deg, #9449FD,#3D3B65);
+}
+	.encabezado>h2{
+		color: #fff;
+		font-size: 20px;
+		text-align: center;
+		line-height: 50px;
+	}
+
+.contenedorFoto{
+	left: 50%;
+	margin-left: -250px;
+	position: relative;
+	float: left;
+	margin-bottom: 50px;
+	width: 500px;
+	clear: both;
+	background: #fff;
+	box-shadow: 0px 3px 10px -3px rgba(0,0,0,.2);
+	border-radius: 3px;
+	border: 1px solid rgba(0,0,0,.1);
+}
