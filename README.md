@@ -1,2 +1,2 @@
-# Instragram-Clone
+# Instragram
 Un clon de Instagram hecho en PHP.
